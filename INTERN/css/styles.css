@@ -11,10 +11,11 @@ body{
 #title.container-fluid{
   padding: 3% 15% 7%;
   text-align: left;
+  color:#ddd;
 
 }
 .container-fluid{
-  padding: 7% 15%;
+  padding: 1% 1%;
 }
 /*sections*/
 .colored-section{
@@ -27,17 +28,17 @@ h1,h2,h3,h4,h5,h6{
   font-family:'Montserrat-Bold';
 }
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background: #eed12d;
+  /* background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
   background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e); */
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
   font-family:'Montserrat', sans-serif;
-  color: blue;
+  color: rgb(17, 17, 26);
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -46,21 +47,25 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc480);
+  background: #d37122;
+  /* background-image: -webkit-linear-gradient(top, #30e3cb, #2bc480);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc480);
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc480);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc480);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc480);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc480); */
   text-decoration: none;
 }
 
 /*heading*/
 .big-heading{
+  color:#f6f5f8;
   font-family: 'Montserrat-Black';
-
+margin-right:-54px;
   font-size: 3.5rem;
   line-height: 1.5;
+}
+.row{
+  margin-left: 28rem;
 }
 
 p{
@@ -68,7 +73,7 @@ color: blue;
 }
 /*navigation bar */
 .navbar{
-  padding: 0 0 4.5rem;
+  padding: 0 0 14.5rem;
 
 }
 .navbar-brand{
@@ -253,7 +258,7 @@ color: blue;
   padding: 0 15px;
 }
 .details .info .logo {
-  padding: 34px;
+  padding: 5px;
   width:45px;
   margin: 0 auto;
   background-color: rgb(1, 161, 1);
